@@ -1,0 +1,75 @@
+/* Playwrite USA Modern */
+
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Margarine&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.btn{
+    padding: 14px 20px 18px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+}
+.btn-container{
+    text-align: center;
+}
+
+#hero{
+    /* height: 506px;*/
+    height: 1087px;
+    background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+     url("../asset/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#hero .hero-content{
+    width: 904;
+}
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-family: "Ga Maamli" ;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#hero .hero-content .para{
+    color: rgb(255, 255, 255);
+    font-family: "Margarine", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
