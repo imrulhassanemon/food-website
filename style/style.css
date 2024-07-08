@@ -79,10 +79,13 @@
 }
 
 #card-box {
-  width: 1320px;
-  margin: 60px auto;
+  width: 1200px;
+  margin: 100px auto;
 }
 
+#card-box .info {
+  margin: 167px;
+}
 #card-box .title {
   color: rgb(16, 16, 16);
   font-family: "Margarine", sans-serif;
@@ -101,5 +104,33 @@
   line-height: 28px;
   letter-spacing: 0%;
   text-align: center;
-  opacity:0.6;
+  opacity: 0.6;
+}
+
+.card-container {
+  margin-top: 48px;
+}
+.card {
+  max-width: 424px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.card .image-box {
+  width: 400px;
+}
+.card .image-box img {
+  width: 100%;
+}
+.card .shop {
+  padding: 14px 32px 14px 32px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+}
+
+.card-container .card .para {
+  text-align: center;
 }
