@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Margarine&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -110,20 +111,14 @@
   opacity: 0.6;
 }
 
-.card-container{
+.card-container {
   margin-top: 0px;
   display: flex;
-  
 }
-.mas{
-    display: flex;
+.mas {
+  display: flex;
+  gap: 20px;
 }
-
-#card-box .container .card-container{
-    display: flex;
-}
-
-
 
 .card {
   max-width: 400px;
@@ -146,8 +141,48 @@
   background: rgba(82, 195, 3, 0.15);
 }
 
-/* .card-container .card .para {
+#main-container img {
+  width: 850px;
+}
+#main-container {
+  display: flex;
+}
+
+#main-container .paras {
+  margin-top: 130px;
+  margin-left:55px;
   text-align: center;
-} */
+  justify-content: center;
+}
 
-
+#main-container .heading {
+  color: rgb(16, 16, 16);
+  font-family: "work Sans";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  
+}
+#main-container .paragraph {
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: "work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#main-container .follow {
+  color: rgb(16, 16, 16);
+  font-family: "work Sans";
+  font-size: 32px;
+  font-weight: 550;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  padding: 30px 10px 30px 10px;
+}
