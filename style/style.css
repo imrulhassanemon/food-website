@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Margarine&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -142,7 +143,7 @@
 }
 
 #main-container img {
-  width: 850px;
+  width: 880px;
 }
 #main-container {
   display: flex;
@@ -150,7 +151,7 @@
 
 #main-container .paras {
   margin-top: 130px;
-  margin-left:55px;
+  margin-left: 40px;
   text-align: center;
   justify-content: center;
 }
@@ -158,7 +159,7 @@
 #main-container .heading {
   color: rgb(16, 16, 16);
   font-family: "work Sans";
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0%;
@@ -169,7 +170,7 @@
   opacity: 0.6;
   color: rgb(16, 16, 16);
   font-family: "work Sans";
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 65px;
   letter-spacing: 0%;
@@ -185,4 +186,9 @@
   text-align: center;
   opacity: 0.7;
   padding: 30px 10px 30px 10px;
+}
+#main-container .icons{
+  margin: 2px;
+  font-size: 30px;
+  /* white-space: 30px; */
 }
