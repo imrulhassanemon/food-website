@@ -18,6 +18,7 @@
   border-radius: 8px;
   background: rgb(82, 195, 3);
   border: none;
+  cursor: pointer;
 }
 .btn-container {
   text-align: center;
@@ -45,7 +46,7 @@
 }
 #hero .hero-content .subtitle {
   color: rgb(255, 255, 255);
-  font-family: Work Sans;
+  font-family: "Ga Maamli";
   font-size: 32px;
   font-weight: 600;
   line-height: 38px;
@@ -81,10 +82,12 @@
 #card-box {
   width: 1200px;
   margin: 100px auto;
+  display: flex;
 }
 
 #card-box .info {
   margin: 167px;
+  /* display: flex; */
 }
 #card-box .title {
   color: rgb(16, 16, 16);
@@ -107,11 +110,23 @@
   opacity: 0.6;
 }
 
-.card-container {
-  margin-top: 48px;
+.card-container{
+  margin-top: 0px;
+  display: flex;
+  
 }
+.mas{
+    display: flex;
+}
+
+#card-box .container .card-container{
+    display: flex;
+}
+
+
+
 .card {
-  max-width: 424px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,7 +135,7 @@
 }
 
 .card .image-box {
-  width: 400px;
+  width: 350px;
 }
 .card .image-box img {
   width: 100%;
@@ -131,6 +146,8 @@
   background: rgba(82, 195, 3, 0.15);
 }
 
-.card-container .card .para {
+/* .card-container .card .para {
   text-align: center;
-}
+} */
+
+
